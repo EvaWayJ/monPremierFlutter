@@ -74,6 +74,9 @@ bool oui = false;
                     oui = !oui;
                   });
                   }),
+              new FlatButton(
+                  onPressed: boutonAppuye,
+                  child: new Text('Appuyer moi!')),
               new Container(
                 height: largeur/5,
                 color: Colors.teal,
