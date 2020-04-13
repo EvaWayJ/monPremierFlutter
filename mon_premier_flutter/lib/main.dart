@@ -47,7 +47,14 @@ class _Home extends State<Home>{
         color: Colors.indigo,
         //height: MediaQuery.of(context).size.height/2,
         //width: MediaQuery.of(context).size.width /3,
-        margin: EdgeInsets.only(top: 20.0, bottom: 15.0)
+        margin: EdgeInsets.only(top: 20.0, bottom: 15.0),
+        child: new Center(
+          child: new Container(
+            width: 50.0,
+            height: 125.0,
+            color: Colors.white,
+          ),
+        ),
       ),
 
     );
