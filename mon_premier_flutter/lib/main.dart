@@ -77,6 +77,12 @@ bool oui = false;
               new FlatButton(
                   onPressed: boutonAppuye,
                   child: new Text('Appuyer moi!')),
+              new RaisedButton(
+                  onPressed: boutonAppuye,
+              child: new Text('Je suis plus haut que toi'),
+              color: Colors.red,
+              textColor: Colors.white,
+              elevation: 7.5),
               new Container(
                 height: largeur/5,
                 color: Colors.teal,
