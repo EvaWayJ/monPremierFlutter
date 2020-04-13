@@ -43,6 +43,12 @@ class _Home extends State<Home>{
         elevation: 10.0,
         centerTitle: true,
       ),
-      backgroundColor: Colors.teal,
+      body: new Container(
+        color: Colors.indigo,
+        //height: MediaQuery.of(context).size.height/2,
+        //width: MediaQuery.of(context).size.width /3,
+        margin: EdgeInsets.only(top: 20.0, bottom: 15.0)
+      ),
+
     );
   }}
