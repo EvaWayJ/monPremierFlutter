@@ -70,34 +70,18 @@ class _Home extends State<Home>{
                 child: new Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    new Container(
-                      height: largeur/8,
-                      width: largeur/8,
-                      color: Colors.yellow,
-                    ),
-                    new Container(
-                      height: largeur/8,
-                      width: largeur/8,
-                      color: Colors.blue,
-                    ),
-                    new Container(
-                      height: largeur/8,
-                      width: largeur/8,
-                      color: Colors.indigo,
-                    ),
-                    new Container(
-                      height: largeur/8,
-                      width: largeur/8,
-                      color: Colors.teal,
-                    ),new Container(
-                      height: largeur/8,
-                      width: largeur/8,
-                      color: Colors.teal,
-                    ),new Container(
-                      height: largeur/8,
-                      width: largeur/8,
-                      color: Colors.teal,
-                    )
+                    new Icon(Icons.thumb_up,
+                    color: Colors.white,
+                    size: largeur/10),
+                    new Icon(Icons.thumb_down,
+                        color: Colors.white,
+                        size: largeur/10),
+                    new Icon(Icons.palette,
+                        color: Colors.white,
+                        size: largeur/10),
+                    new Icon(Icons.directions_bike,
+                        color: Colors.white,
+                        size: largeur/10),
                   ],
                 ),
               )
