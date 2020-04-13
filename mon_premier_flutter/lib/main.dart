@@ -55,6 +55,9 @@ class _Home extends State<Home>{
             child: new Container(
               width: MediaQuery.of(context).size.width/1.5,
               height: 250.0,
+              child: new Image.network("https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png",
+              fit: BoxFit.cover,
+              ),
             ),
           )
           ),
