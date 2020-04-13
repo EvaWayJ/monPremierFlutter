@@ -31,6 +31,7 @@ class Home extends StatefulWidget{
 class _Home extends State<Home>{
   @override
   Widget build(BuildContext context) {
+    double largeur = MediaQuery.of(context).size.width;
     return new Scaffold(
         appBar: new AppBar(
           title: new Text('salut'),
@@ -63,8 +64,42 @@ class _Home extends State<Home>{
                 ),
               ),
               new Container(
-                height: 75.0,
+                height: largeur/5,
                 color: Colors.red,
+                margin: EdgeInsets.only(left: 20.0, right: 20.0),
+                child: new Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    new Container(
+                      height: largeur/8,
+                      width: largeur/8,
+                      color: Colors.yellow,
+                    ),
+                    new Container(
+                      height: largeur/8,
+                      width: largeur/8,
+                      color: Colors.blue,
+                    ),
+                    new Container(
+                      height: largeur/8,
+                      width: largeur/8,
+                      color: Colors.indigo,
+                    ),
+                    new Container(
+                      height: largeur/8,
+                      width: largeur/8,
+                      color: Colors.teal,
+                    ),new Container(
+                      height: largeur/8,
+                      width: largeur/8,
+                      color: Colors.teal,
+                    ),new Container(
+                      height: largeur/8,
+                      width: largeur/8,
+                      color: Colors.teal,
+                    )
+                  ],
+                ),
               )
             ],
           ),
