@@ -32,6 +32,17 @@ class _Home extends State<Home>{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('salut'),
+        leading: new Icon(Icons.account_circle),
+        actions: <Widget>[
+          new Icon(Icons.access_alarm, size: 50),
+          new Icon(Icons.golf_course, color: Colors.indigo.shade800,size: 50,),
+          new Icon(Icons.directions_bike),
+        ],
+        elevation: 10.0,
+        centerTitle: true,
+      ),
       backgroundColor: Colors.teal,
     );
   }}
