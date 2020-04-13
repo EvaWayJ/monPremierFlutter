@@ -76,7 +76,7 @@ bool oui = false;
                   }),
               new Container(
                 height: largeur/5,
-                color: Colors.red,
+                color: Colors.teal,
                 margin: EdgeInsets.only(left: 20.0, right: 20.0),
                 child: new Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -98,6 +98,19 @@ bool oui = false;
               )
             ],
           ),
-        )
+        ),
+      floatingActionButton: new FloatingActionButton(
+          onPressed: boutonAppuye,
+      elevation: 8.0,
+      tooltip: "Changer oui",
+      child: new Icon(Icons.add),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
-  }}
+  }
+void boutonAppuye(){
+    setState(() {
+      oui = !oui;
+    });
+}
+}
