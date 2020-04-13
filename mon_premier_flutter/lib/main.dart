@@ -59,6 +59,5 @@ class _Home extends State<Home>{
           )
           ),
         ),
-      ),
     );
   }}
