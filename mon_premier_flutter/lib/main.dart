@@ -58,6 +58,7 @@ class _Home extends State<Home>{
               fontSize: 20.0,
               fontStyle: FontStyle.italic
             ),
+            maxLines: 2,
           ),
         ),
         ),
