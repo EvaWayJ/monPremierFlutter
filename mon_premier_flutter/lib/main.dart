@@ -49,18 +49,17 @@ class _Home extends State<Home>{
         //width: MediaQuery.of(context).size.width /3,
         margin: EdgeInsets.only(top: 20.0, bottom: 15.0),
         child: new Center(
-          child: new Card(
-            elevation: 10.0,
-            color: Colors.white,
-            child: new Container(
-              width: MediaQuery.of(context).size.width/1.5,
-              height: 250.0,
-              child: new Image.asset('Image/wom.jpg',
-                fit: BoxFit.cover,
-              ),
+          child: new Text(
+              "Apprentissage des widgets avec les cours de codabee.com j'adore ca",
+                  textAlign: TextAlign.center,
+            textScaleFactor: 2.0,
+            style: new TextStyle(
+              color: Colors.white,
+              fontSize: 20.0,
+              fontStyle: FontStyle.italic
             ),
-          )
           ),
+        ),
         ),
     );
   }}
